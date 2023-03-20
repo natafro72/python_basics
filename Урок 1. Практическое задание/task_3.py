@@ -1,3 +1,11 @@
+n = int(input("Введите число n: "))
+a = str(n)
+b = a + a
+c = a + a + a
+res = n + int(b) + int(c)
+print("n + nn + nnn =", res)
+
+
 """
 Задание 3.
 
