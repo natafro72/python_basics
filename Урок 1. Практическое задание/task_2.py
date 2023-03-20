@@ -1,3 +1,9 @@
+vr = int(input('Введите время в секундах: '))
+from decimal import Decimal
+h = vr // 3600
+m = vr // 60
+print(f"Время в формате ч:м:с - {h} : {m} : {vr}")
+
 """
 Задание 2.
 
